@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
 body {
   color: rgb(var(--foreground-rgb));
   
@@ -20,6 +15,11 @@ body {
   width: auto;
   height: auto;
 }
+.homepage-button {
+  background-color: #f6ae2d;
+  color: #fff;
+
+}
 
 @media screen and (max-width: 1022px ) {
   .homepage-main-image {
@@ -27,7 +27,7 @@ body {
   }
 }
 .icon-1 {
-  color: #f6ae2d;
+  color: #f4bf5c;
 }
 .item-container {
   background-color: #f6ae2d ;

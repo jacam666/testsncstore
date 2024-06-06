@@ -55,41 +55,47 @@ export default function Home() {
           className="rounded-3xl my-9 w-4/5"
         />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-1 item-container p-9">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 lg:gap-1 item-container p-9">
         <div className="flex flex-col  mx-2 rounded-xl p-2 bg-white">
-          <div className="flex flex-row">
+          <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber1Filled /></div>
             <h1 className="flex ml-4 font-bold">Proteins</h1>
+            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop </button>
           </div>
           <div>
-            <p>Our exceptionally high-quality, nutritious, and delicious range of proteins offers a wide variety of options to cater to your health and taste preferences.</p>
+            <p className="px-4 py-2">Our exceptionally high-quality, nutritious, and delicious range of proteins offers a wide variety of options to cater to your health and taste preferences.</p>
           </div>
         </div>
         <div className="flex flex-col  mx-2 rounded-xl p-2 bg-white">
-          <div className="flex flex-row">
+          <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber2Filled /></div>
             <h1 className="flex ml-4 font-bold">Pre-workouts</h1>
+            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
           </div>
           <div>
-            <p>Our pre workouts are blends of nutrients, vitamins, and ingredients to boost energy, focus, and workout performance..</p>
+            <p className="px-4 py-2">Our pre workouts are blends of nutrients, vitamins, and ingredients to boost energy, focus, and workout performance..</p>
           </div>
         </div>
         <div className="flex flex-col  mx-2 rounded-xl p-2 bg-white">
-          <div className="flex flex-row">
+          <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber3Filled /></div>
             <h1 className="flex ml-4 font-bold">Fat Loss</h1>
+            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+
           </div>
           <div>
-            <p>Our Fat loss supplements can assist people in their weight management endeavors by offering extra support and helping them achieve their fitness objectives.</p>
+            <p className="px-4 py-2">Our Fat loss supplements can assist people in their weight management endeavors by offering extra support and helping them achieve their fitness objectives.</p>
           </div>
         </div>
         <div className="flex flex-col  mx-2 rounded-xl p-2 bg-white">
-          <div className="flex flex-row">
+          <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber4Filled /></div>
-            <h1 className="flex ml-4 font-bold">Well being</h1>
+            <h1 className="flex ml-4 font-bold">Wellbeing</h1>
+            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+
           </div>
           <div>
-            <p>Our wellness products naturally boost testosterone levels, enhance vitality, and strengthen immune system against environmental stressors.</p>
+            <p className="px-4 py-2">Our wellness products naturally boost testosterone levels, enhance vitality, and strengthen immune system against environmental stressors.</p>
           </div>
         </div>
       </div>

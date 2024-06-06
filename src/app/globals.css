@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  
+}
+
+.separator {
+  background-color: #f6ae2d;
+}
+
+.homepage-main-image {
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 1022px ) {
+  .homepage-main-image {
+    width: 90vw;
+  }
+}

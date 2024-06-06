@@ -3,6 +3,9 @@ import { TbSquareNumber1Filled } from "react-icons/tb";
 import { TbSquareNumber2Filled } from "react-icons/tb";
 import { TbSquareNumber3Filled } from "react-icons/tb";
 import { TbSquareNumber4Filled } from "react-icons/tb";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 
 export default function Home() {
@@ -60,7 +63,7 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber1Filled /></div>
             <h1 className="flex ml-4 font-bold">Proteins</h1>
-            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop </button>
+            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop </button>
           </div>
           <div>
             <p className="px-4 py-2">Our exceptionally high-quality, nutritious, and delicious range of proteins offers a wide variety of options to cater to your health and taste preferences.</p>
@@ -70,7 +73,7 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber2Filled /></div>
             <h1 className="flex ml-4 font-bold">Pre-workouts</h1>
-            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
           </div>
           <div>
             <p className="px-4 py-2">Our pre workouts are blends of nutrients, vitamins, and ingredients to boost energy, focus, and workout performance..</p>
@@ -80,7 +83,7 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber3Filled /></div>
             <h1 className="flex ml-4 font-bold">Fat Loss</h1>
-            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
 
           </div>
           <div>
@@ -91,7 +94,7 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber4Filled /></div>
             <h1 className="flex ml-4 font-bold">Wellbeing</h1>
-            <button className="homepage-button flex  border border-black rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
 
           </div>
           <div>
@@ -99,6 +102,29 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="separator my-5 h-1 w-4/5 mx-auto "></div>
+      <h1 className="text-center text-5xl my-9 font-bold px-3">Snc Supplements</h1>
+
+      <div className="flex flex-col sm:flex-row justify-evenly">
+        <div className="text-center text-xl">
+          <h2 className="my-2 text-4xl">Contact us:</h2>
+          <p>Moorings,</p>
+          <p>Watling Street,</p>
+          <p>Hockliffe,</p>
+          <p>Bedfordshire,</p>
+          <p>LU7 9nb</p>
+          <p>01525 211127</p>
+        </div>
+        <div className="text-center text-xl mt-5">
+          <h1 className="my-2 text-4xl">Socials</h1>
+          <div className="flex flex-row justify-evenly mt-4">
+          <FaFacebookF />
+          <FaInstagram />
+          <FaTwitter />
+          </div>
+        </div>
+      </div>
+      <div className="separator my-9 h-1 w-4/5 mx-auto "></div>
     </div>
   );
 }

@@ -5,7 +5,8 @@ import { TbSquareNumber3Filled } from "react-icons/tb";
 import { TbSquareNumber4Filled } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
                 Snc <span className="text-4xl">Supplements</span>
               </h1>
             </div>
-            <div className="separator my-4 h-3 sm:h-4 w-4/5 lg:w-3/5 md:w-3/5 "></div>
+            <div className="separator my-4 h-2 sm:h-2 w-2/5 lg:w-2/5 md:w-2/5 "></div>
             <div className="my-3">
               <p className="text-2xl text-gray-500 mt-9">
                 SNC Supplements are a range of products designed to help you
@@ -47,7 +48,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="separator  my-4 h-4 w-4/5 m-auto"></div>
+        <div className="separator  my-4 h-2 w-4/5 m-auto"></div>
       </div>
       <div className="flex justify-center py-9">
         <Image
@@ -102,8 +103,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="separator my-5 h-1 w-4/5 mx-auto "></div>
-      <h1 className="text-center text-5xl my-9 font-bold px-3">Snc Supplements</h1>
+      <div className="separator my-5 h-2 w-4/5 mx-auto "></div>
 
       <div className="flex flex-col sm:flex-row justify-evenly">
         <div className="text-center text-xl">
@@ -117,14 +117,14 @@ export default function Home() {
         </div>
         <div className="text-center text-xl mt-5">
           <h1 className="my-2 text-4xl">Socials</h1>
-          <div className="flex flex-row justify-evenly mt-4">
-          <FaFacebookF />
-          <FaInstagram />
-          <FaTwitter />
+          <div className="flex flex-row justify-evenly my-4 lg:justify-between text-2xl">
+          <FaFacebookF className="text-blue-500"/>
+          <FaInstagram className="text-red-800"/>
+          <FaXTwitter />
           </div>
         </div>
       </div>
-      <div className="separator my-9 h-1 w-4/5 mx-auto "></div>
+      <div className="separator my-9 h-2 w-4/5 mx-auto "></div>
     </div>
   );
 }

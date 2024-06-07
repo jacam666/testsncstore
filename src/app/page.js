@@ -12,6 +12,20 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Home() {
   return (
     <div className="mt-6 ">
+      <Image
+        width={200}
+        height={200}
+        src="/logo/Logo__3_-removebg-preview.png"
+        alt="homepage-image"
+        className="mx-auto"
+        />
+      {/* <Image
+        width={300}
+        height={500}
+        src="/logo/Logo__2_-removebg-preview.png"
+        alt="homepage-image"
+        className="mx-auto"
+      /> */}
       <div className="flex-col">
         <div className="flex flex-col lg:flex-row px-9 ">
           <div className="flex flex-col">
@@ -117,10 +131,10 @@ export default function Home() {
         </div>
         <div className="text-center text-xl mt-5">
           <h1 className="my-2 text-4xl">Socials</h1>
-          <div className="flex flex-row justify-evenly my-4 lg:justify-between text-2xl">
-          <FaFacebookF className="text-blue-500"/>
-          <FaInstagram className="text-red-800"/>
-          <FaXTwitter />
+          <div className="flex flex-row justify-evenly mt-10 my-auto lg:justify-between text-2xl">
+            <FaFacebookF className="text-blue-500" />
+            <FaInstagram className="text-red-800" />
+            <FaXTwitter />
           </div>
         </div>
       </div>

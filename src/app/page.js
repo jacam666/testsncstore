@@ -3,9 +3,6 @@ import { TbSquareNumber1Filled } from "react-icons/tb";
 import { TbSquareNumber2Filled } from "react-icons/tb";
 import { TbSquareNumber3Filled } from "react-icons/tb";
 import { TbSquareNumber4Filled } from "react-icons/tb";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 
 
@@ -52,7 +49,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex flex-col text-center lg:py-9">
+        <div className="flex flex-col text-center lg:py-9 bg-yellow-50">
           <h1 className="text-3xl font-bold my-8 text-gray-400">WELCOME TO SNC</h1>
           <p className="text-4xl sm:text-6xl font-bold px-2 mx-auto lg:w-2/3">
             Enhance Your Training Experience with High-Quality Products That are Specifically Designed and Tested by Bodybuilders
@@ -63,7 +60,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="separator  my-4 h-2 w-4/5 m-auto"></div>
+        {/* <div className="separator  my-4 h-2 w-4/5 m-auto"></div> */}
       </div>
       <div className="flex justify-center py-9">
         <Image
@@ -124,28 +121,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="separator my-5 h-2 w-4/5 mx-auto "></div>
-
-      <div className="flex flex-col sm:flex-row justify-evenly">
-        <div className="text-center text-xl">
-          <h2 className="my-2 text-4xl">Contact us:</h2>
-          <p>Moorings,</p>
-          <p>Watling Street,</p>
-          <p>Hockliffe,</p>
-          <p>Bedfordshire,</p>
-          <p>LU7 9nb</p>
-          <p>01525 211127</p>
-        </div>
-        <div className="text-center text-xl mt-5">
-          <h1 className="my-2 text-4xl">Socials</h1>
-          <div className="flex flex-row justify-evenly mt-10 my-auto lg:justify-between text-2xl">
-            <FaFacebookF className="text-blue-500" />
-            <FaInstagram className="text-red-800" />
-            <FaXTwitter />
-          </div>
-        </div>
-      </div>
-      <div className="separator my-9 h-2 w-4/5 mx-auto "></div>
+      {/* <div className="separator my-5 h-2 w-4/5 mx-auto "></div> */}
+      {/* <div className="separator my-9 h-2 w-4/5 mx-auto "></div> */}
     </div>
   );
 }

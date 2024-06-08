@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 
+
 .separator {
-  background-color: #f6ae2d;
+  /* background-color: #f6ae2d; */
+  background-color: #f9f4d6;
 }
 
 .homepage-main-image {
@@ -12,8 +14,9 @@
   height: auto;
 }
 .homepage-button {
-  background-color: #f4bf5c;
-  color: #fff;
+  /* background-color: #f4bf5c; */
+  background-color: #f9f4d6 ;
+  color: #101010;
 
 }
 
@@ -23,8 +26,10 @@
   }
 }
 .icon-1 {
-  color: #f4bf5c;
+  /* color: #f4bf5c; */
+  color: #f9f4d6 ;
 }
 .item-container {
-  background-color: #f6ae2d ;
+  /* background-color: #f6ae2d ; */
+  background-color: #f9f4d6 ;
 }

@@ -6,6 +6,7 @@ import { TbSquareNumber4Filled } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Link from "next/link";
 
 
 
@@ -78,7 +79,9 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber1Filled /></div>
             <h1 className="flex ml-4 font-bold">Proteins</h1>
-            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop </button>
+            <Link href="/protein" className="homepage-button flex rounded-lg px-4 ml-auto mr-4 ">
+            <button>Shop</button>
+            </Link>
           </div>
           <div>
             <p className="px-4 py-2">Our exceptionally high-quality, nutritious, and delicious range of proteins offers a wide variety of options to cater to your health and taste preferences.</p>
@@ -88,7 +91,9 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber2Filled /></div>
             <h1 className="flex ml-4 font-bold">Pre-workouts</h1>
-            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
+            <Link href="/pre-workout" className="homepage-button flex rounded-lg px-4 ml-auto mr-4 ">
+            <button>Shop</button>
+            </Link>
           </div>
           <div>
             <p className="px-4 py-2">Our pre workouts are blends of nutrients, vitamins, and ingredients to boost energy, focus, and workout performance..</p>
@@ -98,8 +103,9 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber3Filled /></div>
             <h1 className="flex ml-4 font-bold">Fat Loss</h1>
-            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
-
+            <Link href="/FatLoss" className="homepage-button flex rounded-lg px-4 ml-auto mr-4 ">
+            <button>Shop</button>
+            </Link>
           </div>
           <div>
             <p className="px-4 py-2">Our Fat loss supplements can assist people in their weight management endeavors by offering extra support and helping them achieve their fitness objectives.</p>
@@ -109,8 +115,9 @@ export default function Home() {
           <div className="flex items-center">
             <div className="text-4xl icon-1 "><TbSquareNumber4Filled /></div>
             <h1 className="flex ml-4 font-bold">Wellbeing</h1>
-            <button className="homepage-button flex   rounded-lg px-4 ml-auto mr-4 ">Shop</button>
-
+            <Link href="/wellbeing" className="homepage-button flex rounded-lg px-4 ml-auto mr-4 ">
+            <button>Shop</button>
+            </Link>
           </div>
           <div>
             <p className="px-4 py-2">Our wellness products naturally boost testosterone levels, enhance vitality, and strengthen immune system against environmental stressors.</p>

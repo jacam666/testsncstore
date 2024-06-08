@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mt-6 ">
+    <div className=" ">
       {/* <Image
         width={200}
         height={200}
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row px-9 xl:w-full ">
           <div className="flex flex-col">
             <div className="flex">
-              <h1 className=" text-5xl xl:text-8xl md:text-4xl sm:text-6xl font-bold my-9 text-[#007BFF]  whitespace-nowrap">
+              <h1 className=" text-5xl xl:text-8xl md:text-4xl sm:text-6xl font-bold text-[#007BFF]  whitespace-nowrap">
                 Snc <span className="text-4xl xl:text-5xl">Supplements</span>
               </h1>
             </div>

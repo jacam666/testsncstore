@@ -10,15 +10,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="mt-6 ">
-      <Image
+      {/* <Image
         width={200}
         height={200}
         src="/logo/Logo__3_-removebg-preview.png"
         alt="homepage-image"
         className="mx-auto"
-      />
+      /> */}
       <div className="flex-col">
-        <div className="flex flex-col lg:flex-row px-9 ">
+        <div className="flex flex-col lg:flex-row px-9 xl:w-full ">
           <div className="flex flex-col">
             <div className="flex">
               <h1 className=" text-5xl xl:text-8xl md:text-4xl sm:text-6xl font-bold my-9 text-[#007BFF]  whitespace-nowrap">
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div className=" my-4 h-2 sm:h-2 w-2/5 lg:w-2/5 md:w-2/5 bg-[#FFC107] "></div>
             <div className="my-3">
-              <p className="text-2xl text-[#666666] mt-9">
+              <p className="text-2xl text-gray-800 mt-9">
                 SNC Supplements are a range of products designed to help you
                 achieve your goals</p>
             </div>
@@ -38,12 +38,12 @@ export default function Home() {
               height={400}
               src="/images/homePageImages/homepage-snc-display-image2.jpg"
               alt="homepage-image"
-              className="rounded-3xl my-9  homepage-main-image"
+              className="rounded-3xl my-9  homepage-main-image  xl:mr-0"
             />
           </div>
         </div>
         <div className="flex flex-col text-center lg:py-9 bg-[#FFC107] text-gray-800">
-          <h1 className="text-3xl font-bold my-8 text-gray-400">WELCOME TO SNC</h1>
+          <h1 className="text-3xl font-bold my-8 text-gray-800">WELCOME TO SNC</h1>
           <p className="text-4xl sm:text-6xl font-bold px-2 mx-auto lg:w-2/3">
             Enhance Your Training Experience with High-Quality Products That are Specifically Designed and Tested by Bodybuilders
           </p>
@@ -63,7 +63,7 @@ export default function Home() {
           alt="homepage-image"
           className="rounded-3xl my-9 w-4/5"
         />
-      </div>
+      </div> 
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 lg:gap-1 item-container p-9">
         {[
           { icon: <TbSquareNumber1Filled />, title: "Proteins", link: "/protein", description: "Our exceptionally high-quality, nutritious, and delicious range of proteins offers a wide variety of options to cater to your health and taste preferences." },

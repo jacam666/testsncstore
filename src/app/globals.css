@@ -12,6 +12,7 @@
 .homepage-main-image {
   width: auto;
   height: auto;
+  
 }
 .homepage-button {
   /* background-color: #f4bf5c; */
@@ -20,9 +21,9 @@
 
 }
 
-@media screen and (max-width: 1022px ) {
+@media screen and (max-width: 1080px ) {
   .homepage-main-image {
-    width: 90vw;
+    /* width: 90vw; */
   }
 }
 .icon-1 {

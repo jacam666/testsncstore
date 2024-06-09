@@ -39,6 +39,10 @@
 .pre-workout-page .card-button a  {
   background-color: #eab308 ;
 }
+.fatLoss-page .card-button a {
+  background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+
+}
 
 
 

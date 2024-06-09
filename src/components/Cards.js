@@ -27,7 +27,7 @@ const CardComponent = ({Products}) => {
                 <span className="text-3xl font-bold text-gray-900 dark:text-white">£{product.price}</span>
                 <a
                     href="#"
-                    className="rounded-lg bg-orange-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:bg-orange-400 dark:hover:bg-orange-500 dark:focus:ring-orange-600"
+                    className="rounded-lg bg-orange-500 px-5 py-2 text-center text-md font-medium text-black hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:bg-orange-400 dark:hover:bg-orange-500 dark:focus:ring-orange-600"
                 >
                     Add to cart
                 </a>

@@ -37,11 +37,15 @@
 }
 
 .pre-workout-page .card-button a  {
-  background-color: #eab308 ;
+  background: linear-gradient(to right, #d0f5b2 0%, #fab6f6 100%);
 }
+.pre-workout-page .card-button a text  {
+color: #101010;}
 .fatLoss-page .card-button a {
   background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
-
+}
+.WellBeing-page .card-button a {
+  background: linear-gradient(to right, #dfa6f2 0%, #6d9cf9 100%);
 }
 
 

@@ -7,13 +7,13 @@ export default function FatLoss() {
 
     return (
         <div className="fatLoss-page">
-            <div className="bg-gradient-to-r from-yellow-100 to-red-500 p-6">
+            <div className="bg-gradient-to-r from-yellow-100 to-red-300 p-6">
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-8 p-6">
                     <div className="shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
                         <Image
                             width={500}
                             height={500}
-                            src="/images/snc images/WhatsApp Image 2023-05-26 at 12.15.23.jpg"
+                            src="/images/snc images/STAGE-RIPPED-NO-HUNGER-300x300.png"
                             alt="homepage-image"
                             className="rounded-lg transform hover:scale-110"
                         />

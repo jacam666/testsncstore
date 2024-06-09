@@ -21,11 +21,6 @@
 
 }
 
-@media screen and (max-width: 1080px ) {
-  .homepage-main-image {
-    /* width: 90vw; */
-  }
-}
 .icon-1 {
   /* color: #f4bf5c; */
   color: #f9f4d6 ;
@@ -33,4 +28,14 @@
 .item-container {
   /* background-color: #f6ae2d ; */
   background-color: #f9f4d6 ;
+}
+.card-img {
+  transition: transform 0.5s ease;
+}
+.card-img:hover {
+  transform: scale(1.2);
+
+}
+@media screen and (max-width: 1080px ) {
+  
 }

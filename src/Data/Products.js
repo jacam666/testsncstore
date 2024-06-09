@@ -1,7 +1,7 @@
 const Products = [
     {
         id: 1,
-        image: "images/snc images/only-whey-final-300x300.png",
+        image: "/images/snc images/only-whey-final-300x300.png",
         name: "THE ONLY WHEY PROTEIN",
         size: "2.2KG 74 servings",
         price: 39.99,
@@ -9,7 +9,7 @@ const Products = [
     },
     {
         id: 2,
-        image: "images/snc images/only-whey-final-300x300.png",
+        image: "/images/snc images/only-whey-final-300x300.png",
         name: "THE ONLY WHEY PROTEIN",
         size: "900G",
         price: 29.99,
@@ -17,7 +17,7 @@ const Products = [
     },
     {
         id: 3,
-        image: "images/snc images/advanced-aftertrain-strawberrylime-300x300.png",
+        image: "/images/snc images/advanced-aftertrain-strawberrylime-300x300.png",
         name: "AFTER TRAIN ADVANCED",
         flavour: "Strawberry-Lime",
         size: "2 KG",
@@ -26,7 +26,7 @@ const Products = [
     },
     {
         id: 4,
-        image: "images/snc images/AFTER-TRAIN-ADVANCED-300x300.png",
+        image: "/images/snc images/AFTER-TRAIN-ADVANCED-300x300.png",
         name: "AFTER TRAIN ADVANCED",
         flavour: "Blue Candy Flavour",
         size: "2 KG",
@@ -35,7 +35,7 @@ const Products = [
     },
     {
         id: 5,
-        image: "images/snc images/orange-mango-advanced-aftertrain-for-web-300x300.png",
+        image: "/images/snc images/orange-mango-advanced-aftertrain-for-web-300x300.png",
         name: "AFTER TRAIN ADVANCED",
         flavour: "Orange-Mango",
         size: "2 KG",
@@ -44,7 +44,7 @@ const Products = [
     },
     {
         id: 6,
-        image: "images/1After_Train_Fruit_Punch-1-300x300.png",
+        image: "/images/snc images/1After_Train_Fruit_Punch-1-300x300.png",
         name: "AFTER TRAIN",
         flavour: "Fruit Punch",
         size: "908g",
@@ -61,7 +61,7 @@ const Products = [
     },
     {
         id: 8,
-        image: "images/snc images/2After_Train_Raspberry-1-300x300.png",
+        image: "/images/snc images/2After_Train_Raspberry-1-300x300.png",
         name: "AFTER TRAIN",
         flavour: "Raspberry",
         size: "908g",
@@ -70,7 +70,7 @@ const Products = [
     },
     {
         id: 9,
-        image: "images/snc images/apple-aftertrain-300x300.png",
+        image: "/images/snc images/apple-aftertrain-300x300.png",
         name: "AFTER TRAIN",
         flavour: "Apple",
         size: "908g",
@@ -135,7 +135,7 @@ const Products = [
     },
     {
         id: 17,
-        image: "images/snc images/3After_Train_Orange-1-300x300.png",
+        image: "/images/snc images/3After_Train_Orange-1-300x300.png",
         name: "AFTER TRAIN",
         flavour: "Orange",
         size: "908g",

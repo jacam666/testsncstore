@@ -1,7 +1,10 @@
-import { CardComponent } from "@/components/Cards";
+import Products from "@/Data/Products";
+import CardComponent from "@/components/Cards";
 import Image from "next/image";
 
 export default function Protein() {
+    const Protein = Products.filter(product => product.category === "protein");
+
     return (
         <div>
             <div className="bg-gradient-to-r from-yellow-100 via-yellow-50 to-yellow-200 p-6">
@@ -26,7 +29,9 @@ export default function Protein() {
                     </div>
                 </div>
             </div>
-            <CardComponent />
+            <div>
+                <CardComponent Products={Protein} />
+            </div>
         </div>
     );
 }

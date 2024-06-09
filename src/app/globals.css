@@ -34,8 +34,19 @@
 }
 .card-img:hover {
   transform: scale(1.2);
-
 }
+
+.pre-workout-page .card-button a  {
+  background-color: #eab308 ;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1080px ) {
   
 }

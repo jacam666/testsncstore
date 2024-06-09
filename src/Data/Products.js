@@ -53,7 +53,7 @@ const Products = [
     },
     {
         id: 7,
-        image: "images/snc images/Stage-Ripped-CGI-300x300.png",
+        image: "/images/snc images/Stage-Ripped-CGI-300x300.png",
         name: "STAGE RIPPED",
         size: "60 caps",
         price: 29.99,
@@ -79,7 +79,7 @@ const Products = [
     },
     {
         id: 10,
-        image: "images/snc images/cap-b4pre-blue-300x300 copy1.png",
+        image: "/images/snc images/cap-b4pre-blue-300x300 copy1.png",
         name: "B4 EXTREME",
         flavour: "Blue Raspberry",
         price: 24.99,
@@ -87,7 +87,7 @@ const Products = [
     },
     {
         id: 11,
-        image: "images/snc images/B4-Rio-berry-300x300.png",
+        image: "/images/snc images/B4-Rio-berry-300x300.png",
         name: "B4 TRAIN",
         flavour: "Rio Berry",
         price: 24.99,
@@ -95,7 +95,7 @@ const Products = [
     },
     {
         id: 12,
-        image: "images/snc images/B4-tropical-gummy-300x300.png",
+        image: "/images/snc images/B4-tropical-gummy-300x300.png",
         name: "B4 TRAIN",
         flavour: "Tropical Gummy",
         price: 24.99,
@@ -103,7 +103,7 @@ const Products = [
     },
     {
         id: 13,
-        image: "images/snc images/Year-round-300x300.png",
+        image: "/images/snc images/Year-round-300x300.png",
         name: "YEAR ROUND IMMUNITY",
         size: "60 caps",
         price: 19.99,
@@ -111,7 +111,7 @@ const Products = [
     },
     {
         id: 14,
-        image: "images/snc images/b4-candy-extreme-small-size.png",
+        image: "/images/snc images/b4-candy-extreme-small-size.png",
         name: "B4 EXTREME",
         flavour: "Candy",
         price: 24.99,
@@ -119,7 +119,7 @@ const Products = [
     },
     {
         id: 15,
-        image: "images/snc images/cap-stagepump-strawberry-lime-300x300.png",
+        image: "/images/snc images/cap-stagepump-strawberry-lime-300x300.png",
         name: "STAGE PUMP",
         flavour: "Strawberry and Lime",
         price: 29.99,
@@ -127,7 +127,7 @@ const Products = [
     },
     {
         id: 16,
-        image: "images/snc images/NO-HUNGER-300x300.png",
+        image: "/images/snc images/NO-HUNGER-300x300.png",
         name: "NO MORE HUNGER",
         size: "90 caps",
         price: 24.99,
@@ -144,7 +144,7 @@ const Products = [
     },
     {
         id: 18,
-        image: "images/snc images/PCT-NEW-300x300.png",
+        image: "/images/snc images/PCT-NEW-300x300.png",
         name: "CON-TEST P.C.T",
         size: "240 caps",
         price: 29.99,
@@ -152,7 +152,7 @@ const Products = [
     },
     {
         id: 19,
-        image: "images/snc images/RIPPED-EXTREME-300x300.png",
+        image: "/images/snc images/RIPPED-EXTREME-300x300.png",
         name: "STAGE RIPPED EXTREME",
         size: "60 caps",
         price: 34.99,
@@ -160,7 +160,7 @@ const Products = [
     },
     {
         id: 20,
-        image: "images/snc images/STAGE-PUMP-BLUE-FOR-WEB-300x300.png",
+        image: "/images/snc images/STAGE-PUMP-BLUE-FOR-WEB-300x300.png",
         name: "STAGE PUMP",
         flavour: "Blue Raspberry",
         price: 29.99,
@@ -168,7 +168,7 @@ const Products = [
     },
     {
         id: 21,
-        image: "images/snc images/620-620-traininngplan-1-300x300.jpg",
+        image: "/images/snc images/620-620-traininngplan-1-300x300.jpg",
         name: "TRAINING PLAN  1-HOUR",
         size: "With 1 hour consultation",
         price: 30,
@@ -176,26 +176,26 @@ const Products = [
     },
     {
         id: 22,
-        image: "images/1After_Train_Fruit_Punch-1-300x300.png",
+        image: "/images/1After_Train_Fruit_Punch-1-300x300.png",
         name: "BUNDLE DEAL-1",
         price: 59.99,
     },
     {
         id: 23,
-        image: "images/snc images/STAGE-RIPPED-NO-HUNGER-300x300.png",
+        image: "/images/snc images/STAGE-RIPPED-NO-HUNGER-300x300.png",
         name: "FAT BURNER BUNDLE DEAL",
         price: 44.99,
         category: "fatBurners",
     },
     {
         id: 24,
-        image: "images/1After_Train_Fruit_Punch-1-300x300.png",
+        image: "/images/1After_Train_Fruit_Punch-1-300x300.png",
         name: "BUNDLE DEAL-2",
         price: 49.99,
     },
     {
         id: 25,
-        image: "images/snc images/personal-training-image-1.jpg",
+        image: "/images/snc images/personal-training-image-1.jpg",
         name: "DIET PLAN",
         size: "With 1 hour consultation",
         price: 30.00,

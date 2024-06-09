@@ -1,24 +1,32 @@
+import { CardComponent } from "@/components/Cards";
 import Image from "next/image";
 
 export default function Protein() {
     return (
         <div>
-            <div className="bg-yellow-50 mx-4 p-6">
-                <div className="flex flex-col xl:flex-row sm:px-4 py-6">
-                    <Image
-                        width={500}
-                        height={500}
-                        src="/images/protein-images/CarouselOnlyWheyPromotion.jpg"
-                        alt="homepage-image"
-                        className=" mx-auto md:w-3/4 lg:w-1/2 xl:w-2/4 my-auto rounded-lg"
-                    />
-                    <div className="flex flex-col xl:ml-8 mt-6 xl:mt-0 w-full">
-                        <h1 className=" text-5xl lg:text-6xl text-gray-700 font-sans font-bold text-center xl:text-left xl:ml-9 mb-3">Proteins</h1>
-                        <div className=" bg-black my-4 h-1 w-4/5 mx-auto xl:h-0 "></div>
-                        <p className="my-auto sm:p-10 text-2xl text-center p-2 sm:text-4xl bg-white sm:m-9 text-gray-600 mt-3">Snc proteins offer a fantastic combination of great taste, exceptional performance benefits, and outstanding nutritional value.</p>
+            <div className="bg-gradient-to-r from-yellow-100 via-yellow-50 to-yellow-200 p-6">
+                <div className="flex flex-col xl:flex-row items-center justify-center gap-8 p-6">
+                    <div className="shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                        <Image
+                            width={500}
+                            height={500}
+                            src="/images/protein-images/CarouselOnlyWheyPromotion.jpg"
+                            alt="homepage-image"
+                            className="rounded-lg transform hover:scale-110"
+                        />
+                    </div>
+                    <div className="flex flex-col items-start text-gray-700 space-y-4">
+                        <h1 className="text-5xl lg:text-7xl font-sans font-bold">Proteins</h1>
+                        <div className="bg-black h-1 w-full"></div>
+                        <p className="text-xl lg:text-3xl bg-white p-4 rounded-md shadow">
+                            Discover the perfect blend of flavor and nutrition with Snc proteins.
+                            Experience the superior taste, enhanced performance, and exceptional
+                            nutritional value that sets our proteins apart.
+                        </p>
                     </div>
                 </div>
             </div>
+            <CardComponent />
         </div>
     );
 }

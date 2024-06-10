@@ -16,6 +16,7 @@ export default function WellBeing() {
                             src="/images/snc images/CarouselP.C.T.jpg"
                             alt="homepage-image"
                             className="rounded-lg transform hover:scale-110"
+                            priority
                         />
                     </div>
                     <div className="flex flex-col items-start text-gray-700 space-y-4">

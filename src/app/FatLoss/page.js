@@ -9,7 +9,7 @@ export default function FatLoss() {
         <div className="fatLoss-page">
             <div className="bg-gradient-to-r from-yellow-100 to-red-300 p-6">
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-8 p-6">
-                    <div className="shadow-xl hover:shadow-2xl transition duration-300 ease-in-out">
+                    <div className=" transition duration-300 ease-in-out">
                         <Image
                             width={500}
                             height={500}

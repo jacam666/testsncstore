@@ -15,7 +15,7 @@ export default function MyNavbar() {
         { title: "Wellbeing", path: "/wellbeing" },
         { title: "Fat Loss", path: "/FatLoss" },
         { title: "Studio", path: "/" },
-        { title: "Basket", path: "/" },
+        { title: "Basket", path: "/Basket" },
     ]
 
     useEffect(() => {

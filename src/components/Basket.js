@@ -3,30 +3,36 @@
 
 import { useBasket } from '@/context/BasketContext';
 
-const Basket = () => {
+export default function Basket() {
     const { basket } = useBasket();
-    
+    console.log("Rendering Basket component");
+    console.log("Basket contents in basket component: ", basket);
+
+    const basketTotal = basket.reduce((total, item) => total  + item.price, 0).toFixed(2);
 
     return (
-        <div>
-            <h1 className="text-2xl font-bold mb-4">Basket</h1>
+        <div className='border p-4 rounded-lg shadow-md m-4'>
+            <h1 className="text-4xl text-center font-bold mb-4">Basket</h1>
             {basket.length === 0 ? (
                 <p>Your basket is empty.</p>
             ) : (
-                <div className="flex flex-row gap-6">
+                <div className="flex flex-col flex-wrap gap-6">
                     {basket.map((item, index) => (
-                        <div key={index} className="border p-4 rounded-lg shadow-md">
+                        <div key={item.id || index} className="flex flex-row justify-between">
                             <img src={item.image} alt={item.name} className="w-20 h-20 rounded-md mb-30" />
-                            <h2 className="text-lg font-bold mt-4">{item.name}</h2>
-                            <p>{item.size}</p>
-                            <p>£{item.price}</p>
+                            <div className="flex flex-col text-sm">
+                            <h2 className=" font-bold text-md m-auto">{item.name}</h2>
+                            <p className='flex m-auto'>{item.size}</p>
+                            </div>
+                            <p className=''>£{item.price}</p>
                         </div>
                     ))}
                 </div>
             )}
+            <p className='flex justify-end'>£{basketTotal}</p>
         </div>
     );
 };
 
-export default Basket;
+// export default Basket;
 

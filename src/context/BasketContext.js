@@ -41,6 +41,7 @@ export const BasketProvider = ({ children }) => {
     const [basket, setBasket] = useState([]);
 
     const addToBasket = (product) => {
+        console.log("Adding product: ", product);
         setBasket((prevBasket) => [...prevBasket, product]);
     };
 

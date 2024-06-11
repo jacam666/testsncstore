@@ -11,7 +11,7 @@ export default function FatLoss() {
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-8 p-6">
                     <div className=" transition duration-300 ease-in-out">
                         <Image
-                            width={500}
+                            width={400}
                             height={500}
                             src="/images/snc images/STAGE-RIPPED-NO-HUNGER-300x300.png"
                             alt="homepage-image"

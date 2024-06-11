@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <div className="flex flex-col sm:flex-row justify-evenly mb-9 bg-[#f5f5f5] p-6 rounded-lg shadow-lg">
+        <div className="flex flex-col sm:flex-row justify-evenly  bg-[#f5f5f5] p-6 rounded-lg shadow-lg">
             <div className="text-center text-xl text-gray-800">
                 <h2 className="my-2 text-4xl font-bold text-[#007BFF]">Contact us:</h2>
                 <p>Moorings,</p>

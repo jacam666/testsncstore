@@ -16,6 +16,7 @@ export default function Protein() {
                             src="/images/protein-images/CarouselOnlyWheyPromotion.jpg"
                             alt="homepage-image"
                             className="rounded-lg transform hover:scale-110"
+                            priority
                         />
                     </div>
                     <div className="flex flex-col items-start text-gray-700 space-y-4">
@@ -29,9 +30,7 @@ export default function Protein() {
                     </div>
                 </div>
             </div>
-            <div>
                 <CardComponent Products={Protein} />
-            </div>
         </div>
     );
 }

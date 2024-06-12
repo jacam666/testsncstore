@@ -30,7 +30,9 @@ export default function Protein() {
                     </div>
                 </div>
             </div>
+            <div className="">
                 <CardComponent Products={Protein} />
+            </div>
         </div>
     );
 }

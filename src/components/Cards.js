@@ -27,7 +27,7 @@ const CardComponent = ({ Products }) => {
                     </div>
                 </div>
             )}
-        <div className="flex flex-row flex-wrap gap-10 justify-center m-9 border-none">
+        <div className="flex flex-row flex-wrap gap-6 justify-center m-9 border-none">
             {Products.map((product) => (
                 <Card
                     key={product.id}

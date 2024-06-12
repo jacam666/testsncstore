@@ -15,7 +15,7 @@ export default function MyNavbar() {
         { title: "Pre-workouts", path: "/pre-workout" },
         { title: "Wellbeing", path: "/wellbeing" },
         { title: "Fat Loss", path: "/FatLoss" },
-        { title: "Studio", path: "/" },
+        { title: "Studio", path: "/studioPage" },
         { title: "Basket", path: "/BasketPage" },
     ]
 
@@ -27,7 +27,7 @@ export default function MyNavbar() {
     }, [])
 
     return (
-        <nav className={`bg-white  lg:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 lg:shadow-none lg:border-none lg:mx-2 lg:mt-0" : ""}`}>
+        <nav className={`bg-white  xl:text-xl ${state ? "shadow-lg rounded-xl border mx-2 mt-2 lg:shadow-none lg:border-none lg:mx-2 lg:mt-0" : ""}`}>
             <div className="gap-x-14 items-center max-w-screen-xl mx-auto px-4 lg:flex lg:px-8">
                 <div className="flex items-center justify-between py-5 lg:block">
                     <Link href="/">

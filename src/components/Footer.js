@@ -16,7 +16,7 @@ export default function Footer() {
                 <p>01525 211127</p>
             </div>
             <div className="text-center text-xl mt-5 text-gray-800">
-                <h1 className="my-2 text-4xl">Socials</h1>
+                <h1 className="my-2 text-4xl text-[#007BFF] font-bold">Socials</h1>
                 <div className="flex flex-row justify-evenly mt-10 my-auto lg:justify-between text-2xl">
                     <a href="https://facebook.com/uksnc" aria-label="Facebook" className="hover:text-[#007BFF]">
                         <FaFacebookF className="text-blue-600 hover:text-[#007BFF]" />

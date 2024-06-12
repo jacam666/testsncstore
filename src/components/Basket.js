@@ -47,6 +47,7 @@ export default function Basket() {
                 )}
                 <p className='flex justify-end font-bold text-xs sm:text-xl mt-4'>Basket Total: £{basketTotal}</p>
             </div>
+            <button className='flex bg-green-300 text-center mx-auto mt-6 px-4 py-2 rounded-md'>ADD TO CHECKOUT</button>
         </div>
     );
 }

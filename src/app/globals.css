@@ -61,6 +61,23 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.sign-up-container {
+  /* background-image: url('/images/signup-page/sign-up-image-download.jpg'); */
+  background-image: url('/images/signup-page/barbell1514217.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  background-image: url('/images/login-page/barbell1rm.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .basket-item-container {
   margin: auto;
 }

@@ -15,7 +15,7 @@ const CardComponent = ({ Products }) => {
         setShowAlert(true);
         setTimeout(() => {
             setShowAlert(false);
-        }, 2000); // Hide alert after 3 seconds
+        }, 500); // Hide alert after 3 seconds
     };
 
     return (

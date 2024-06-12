@@ -59,8 +59,10 @@ html, body {
   background-image: url('/images/snc images/143959-gym-wallpaper-1920x1200-for-iphone.jpg');
     background-size: cover;
     background-position: center;
-    height: 100%;
     background-repeat: no-repeat;
+}
+.basket-item-container {
+  margin: auto;
 }
 .pre-workout-page .card-button a  {
   background: linear-gradient(to right, #d0f5b2 0%, #fab6f6 100%);

@@ -30,7 +30,10 @@ export default function Studio() {
         "/images/snc images/studioPic3_edited.jpg",
         "/images/snc images/studioPic9.jpg",
         "/images/snc images/studioPic4_edited.jpg",
-        "/images/snc images/studioPic5_edited.jpg"
+        "/images/snc images/studioPic5_edited.jpg",
+        "/images/snc images/studioPic6_edited.jpg",
+        "/images/snc images/studioPic7_edited.jpg",
+        "/images/snc images/studioPic8_edited.jpg"
     ];
 
     return (
@@ -51,8 +54,20 @@ export default function Studio() {
                         ))}
                     </div>
                     <div className="flex w-1/2 flex-wrap">
-                        {images.slice(3).map((src, index) => (
+                        {images.slice(3,6).map((src, index) => (
                             <div key={index} className={`w-${index === 0 ? "full" : "1/2"} p-1 md:p-2`}>
+                                <img
+                                    alt="gallery"
+                                    className="block h-full w-full rounded-lg object-cover object-center cursor-pointer"
+                                    src={src}
+                                    onClick={() => openModal(src)}
+                                />
+                            </div>
+                        ))}
+                    </div>
+                    <div className="flex w-full">
+                        {images.slice(6).map((src, index) => (
+                            <div key={index} className={`w-${index === 0 ? "1/3" : "1/3"} p-1 md:p-2`}>
                                 <img
                                     alt="gallery"
                                     className="block h-full w-full rounded-lg object-cover object-center cursor-pointer"
